@@ -6,6 +6,8 @@ from django.template.defaultfilters import slugify
 
 from .models import Women, Category
 
+#Добавлена строчка в Windows
+
 menu = [
     {'title': 'О сайте', 'url_name': 'about'},
     {'title': 'Добавить статью', 'url_name': 'add_page'},
